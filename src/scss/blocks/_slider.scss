@@ -1,0 +1,56 @@
+.slider-bg {
+  background-color: rgb(182, 182, 182);
+
+  &__img {
+    display: none;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__main-block {
+    /* background-color: rgb(219, 58, 58); */
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__arow {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // align-content: center;
+    width: 97.5%;
+    height: inherit;
+    // margin-top: 50%;
+    z-index: 5;
+
+    &-left {
+      width: 50px;
+      height: 50px;
+
+      img {
+        width: inherit;
+        height: inherit;
+      }
+    }
+
+    &-right {
+      // display: block;
+      width: 50px;
+      height: 50px;
+
+      img {
+        width: inherit;
+        height: inherit;
+      }
+    }
+  }
+}
+
+.active-class {
+  display: block;
+}
