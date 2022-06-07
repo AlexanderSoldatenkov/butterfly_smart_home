@@ -92,18 +92,16 @@ window.onload = () => {
       item.classList.remove('show', 'fade');
     });
 
-    sliderImages.forEach(item => {
-      item.classList.remove('.slider_active');
-    });
   }
 
   function showSlider(i) {
     sliderImages[i].classList.add('show', 'fade');
     sliderImages[i].classList.remove('hide');
-    sliderImages[i].classList.add('.slider_active');
   }
 
   hideSlide();
   showSlider(i);
+  // showSlider(i+1);
+  // showSlider(i+2);
 
 };

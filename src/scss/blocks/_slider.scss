@@ -20,6 +20,7 @@
     /* background-color: rgb(219, 58, 58); */
     position: relative;
     display: flex;
+    // flex-direction: row;
     align-items: center;
   }
 
@@ -58,11 +59,6 @@
   }
 }
 
-.active-class {
-  display: block;
-}
-
-
 .show {
   display: block;
 }
@@ -85,8 +81,4 @@
   to {
     opacity: 1;
   }
-}
-
-.slider_active {
-  display: block;
 }
