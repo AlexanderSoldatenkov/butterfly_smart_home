@@ -6,7 +6,7 @@ window.onload = () => {
     slider = document.querySelector('.slider-bg__main-block'),
     arrowLeft = document.querySelector('.slider-bg__arow-left'),
     arrowRight = document.querySelector('.slider-bg__arow-right');
-  let slidesCount = 0;
+  // let slidesCount = 0;
 
   // arrowRight.addEventListener('click', () => {
   //   // sliderImages.forEach((item, i) => {
@@ -93,7 +93,7 @@ window.onload = () => {
     });
 
     sliderImages.forEach(item => {
-      item.classList.remove('.offer__slider_active');
+      item.classList.remove('.slider_active');
     });
   }
 
