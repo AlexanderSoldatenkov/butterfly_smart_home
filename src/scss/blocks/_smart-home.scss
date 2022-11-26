@@ -1,0 +1,154 @@
+.smart-home {
+  &__background {
+    // width: 1920px;
+    min-height: 800px;
+    object-fit: cover;
+    background: url("/img/706397.png") no-repeat 100%/cover;
+  }
+
+  &__h1 {
+    position: absolute;
+    left: 66px;
+    top: 360px;
+    font-family: Montserrat, sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: .71;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  &__h2 {
+    width: 943px;
+    position: absolute;
+    left: 66px;
+    top: 460px;
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  &__back {
+    position: absolute;
+    left: 0px;
+    top: 450px;
+    width: 1000px;
+    height: 180px;
+    background-color: rgba(109, 188, 233, 0.616);
+  }
+
+  &__second-part {
+    // width: 1920px;
+    object-fit: cover;
+    min-height: 400px;
+    background: url("/img/wallpaperflare.com_wallpaper.jpg") no-repeat 100%/cover;
+
+
+    &_descr {
+      display: block;
+      margin: 0 auto;
+      padding-top: 20px;
+      width: 400px;
+
+      font-family: Montserrat, sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      text-align: left;
+      color: black;
+    }
+  }
+
+  &__third-part {
+    object-fit: cover;
+    min-height: 777px;
+    background: url("/img/butterfly_surface_wooden_116623_1920x1080.jpg") no-repeat 100%/cover;
+    padding-top: 357px;
+
+    &_overlay {
+      position: absolute;
+      right: 0px;
+      top: 1360px;
+      width: 1000px;
+      height: 180px;
+      background-color: rgba(109, 188, 233, 0.616);
+    }
+
+    &_overlay-3 {
+      position: absolute;
+      left: 0px;
+      top: 1700px;
+      width: 1000px;
+      height: 180px;
+      background-color: rgba(109, 188, 233, 0.616);
+    }
+
+    &_btn {
+      display: block;
+      margin: 0 auto;
+      width: 400px;
+    }
+  }
+
+  &__four-part {
+    &_btn {
+      margin-top: 230px;
+
+    }
+  }
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+
+  &__element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__number {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: .75px;
+    text-align: right;
+    color: blue;
+    text-transform: uppercase;
+
+    span {
+      font-size: 15px;
+      color: #000;
+    }
+  }
+
+  &__descr {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: .75px;
+    text-align: right;
+    color: #000;
+  }
+}
