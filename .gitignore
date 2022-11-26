@@ -9,6 +9,7 @@
 # production
 /build
 /dist
+/experimental_node
 
 
 # misc
