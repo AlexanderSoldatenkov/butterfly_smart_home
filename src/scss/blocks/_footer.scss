@@ -1,4 +1,6 @@
 .footer {
-  min-height: 150px;
-  background-color: rgb(69, 122, 201);
+  min-height: 135px;
+  background-color: $footer-background;
+  position: relative;
+  z-index: 3;
 }

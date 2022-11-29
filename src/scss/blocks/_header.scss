@@ -1,29 +1,42 @@
-.header__bg {
-  min-height: 100px;
-  width: 100%;
-  background-color: #88B327;
-  position: fixed;
-  z-index: 10;
+.header {
+  &__bg {
+    top: 0;
+    min-height: 115px;
+    width: 100%;
+    background-color: $background;
+    position: sticky;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    border-bottom: 7px solid;
+    border-color: $counter;
+  }
+
 }
+
 
 .navigation {
   &__name {
-    font-family: Montserrat, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    font-stretch: normal;
+    font-family: 'Montserrat';
     font-style: normal;
-    letter-spacing: .75px;
-    text-align: right;
-    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
     text-transform: uppercase;
     display: flex;
     align-items: center;
+    color: $second-font-color;
+    margin-bottom: 10px;
   }
 
   &__logo {
-    width: 70px;
-    height: 70px;
+    width: 298px;
+    height: 75px;
+
+    &_right {
+      width: 176px;
+      height: 58px;
+    }
 
     &_align {
       display: flex;
@@ -35,7 +48,7 @@
   &__block {
     display: flex;
     justify-content: space-between;
-    margin: 10px 0 10px 0;
+    // margin: 10px 0 10px 0;
   }
 
   &_line {
@@ -57,7 +70,16 @@
     &_div {
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      // justify-content: center;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 25px;
+      /* or 156% */
+      text-transform: uppercase;
+      color: #00B9FF;
     }
 
     &_item {
@@ -65,21 +87,13 @@
 
       a {
         &:hover {
-          color: red;
+          color: $second-font-color;
         }
       }
     }
 
     &_link {
-      font-family: Roboto;
-      font-size: 15px;
-      font-weight: 700;
-      font-stretch: normal;
-      font-style: normal;
-      letter-spacing: .75px;
-      text-align: right;
-      color: #000;
-      text-transform: uppercase;
+
 
       &:hover {
         text-decoration: none;
