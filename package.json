@@ -55,10 +55,9 @@
     "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
-    "babel-runtime": "^6.26.0",
-    "bootstrap": "^5.2.0-beta1",
-    "focus-visible": "^5.2.0",
-    "http-proxy-middleware": "^2.0.4",
-    "jquery": "^3.6.0"
+    
+    
+    "focus-visible": "^5.2.0"
+    
   }
 }
