@@ -1,29 +1,41 @@
 .history {
   &__background-1 {
-    min-height: 761px;
+    min-height: 645px;
     object-fit: cover;
-    background: url("/img/history_background/back_1.jpg") no-repeat 100%/cover;
+    background: url("/img/history_background/back_1.png") no-repeat 100%/cover;
   }
 
   &__h1 {
-    top: 492px;
-    z-index: 1;
+    padding-top: 317px;
+    z-index: 3;
+    position: absolute;
+    width: 1048px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 67px;
+    line-height: 82px;
+    text-transform: uppercase;
+    color: $first-font-color;
   }
 
   &__h2 {
-    margin-top: 201px;
+    top: 600px;
     z-index: 1;
+    padding-top: 8px;
   }
 
   &__background {
-    top: 474px;
-    width: 1113px;
+    top: 403px;
+    width: 1344px;
     height: 323px;
     z-index: 0;
+    background: linear-gradient(180deg, $counter 0%, rgba(0, 185, 255, 0) 95.05%), #FF0072;
+    mix-blend-mode: multiply;
   }
 
   &__vector {
-    top: 189px;
+    top: 105px;
   }
 }
 
@@ -33,14 +45,18 @@
   min-height: 2378px;
 
   &__vector-1 {
-    top: 1021px;
+    top: 873px;
+  }
+
+  &__block-4 {
+    margin-top: 73px;
   }
 
 
   &__block {
     display: flex;
     flex-direction: row;
-    margin-top: 25px;
+    // margin-top: 25px;
 
     &_img-first {
       position: relative;
@@ -63,79 +79,66 @@
     }
 
     &_img-1 {
-      width: 450px;
-      height: 500px;
+      width: 474px;
+      height: 469px;
       object-fit: cover;
       z-index: 1;
-
-      // &::after {
-      //   content: "";
-      //   display: block;
-      //   position: absolute;
-      //   top: 10px;
-      //   left: 10px;
-      //   width: 407px;
-      //   height: 343px;
-      //   transform: translate(-429px, 190px);
-      //   z-index: 0;
-      //   background-color: $square-background;
-      // }
 
     }
 
     &_img-2 {
-      width: 450px;
-      height: 400px;
+      width: 423px;
+      height: 402px;
       object-fit: cover;
       z-index: 1;
     }
 
     &_img-3 {
-      width: 450px;
-      height: 800px;
+      width: 462px;
+      height: 843px;
       object-fit: cover;
       z-index: 1;
     }
 
     &_img-4 {
-      width: 1088px;
-      height: 500px;
+      width: 724px;
+      height: 483px;
       object-fit: cover;
       z-index: 1;
     }
 
     &_shawdow-1 {
       position: relative;
-      width: 407px;
-      height: 343px;
-      transform: translate(-42px, -299px);
+      width: 394px;
+      height: 329px;
+      transform: translate(-38px, -292px);
       z-index: -1;
       background-color: $square-background;
     }
 
     &_shawdow-2 {
       position: relative;
-      width: 407px;
-      height: 343px;
-      transform: translate(84px, -298px);
+      width: 394px;
+      height: 329px;
+      transform: translate(68px, -300px);
       z-index: -1;
       background-color: $square-background;
     }
 
     &_shawdow-3 {
       position: relative;
-      width: 407px;
-      height: 343px;
-      transform: translate(-42px, -299px);
+      width: 394px;
+      height: 412px;
+      transform: translate(-40px, -369px);
       z-index: -1;
       background-color: $square-background;
     }
 
     &_shawdow-4 {
       position: relative;
-      width: 585px;
-      height: 363px;
-      transform: translate(-63px, -329px);
+      width: 536px;
+      height: 364px;
+      transform: translate(-63px, -353px);
       z-index: 1;
       background-color: $square-background;
     }
@@ -143,26 +146,36 @@
     &_descr {
       display: block;
       margin: 0 auto;
-      padding-top: 49px;
-      width: 645px;
-      font-family: "Montserrat";
+      padding-top: 5px;
+      width: 588px;
+      font-family: 'Montserrat';
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
       line-height: 20px;
       color: black;
     }
+
+    &_descr-2 {
+      padding-top: 70px;
+      width: 588px;
+    }
+
+    &_descr-3 {
+      padding-top: 66px;
+      width: 573px;
+    }
+
+    &_descr-4 {
+      margin-left: 42px;
+      padding-top: 100px;
+      width: 349px;
+      position: relative;
+      z-index: 2;
+    }
   }
 }
 
 #information__block-1 {
   margin-top: 50px;
-}
-
-#information__block_descr-4 {
-  margin-left: 42px;
-  padding-top: 100px;
-  width: 425px;
-  z-index: 2;
-  position: relative; 
 }

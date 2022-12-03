@@ -99,51 +99,51 @@
   }
 }
 
-.smart-home {
-  &__background {
-    min-height: 645px;
-    object-fit: cover;
-    background: url("../img/background/background_1.png") no-repeat 100%/cover;
-  }
+// .smart-home {
+//   &__background {
+//     min-height: 645px;
+//     object-fit: cover;
+//     background: url("../img/background/background_1.png") no-repeat 100%/cover;
+//   }
 
-  &__h1 {
-    position: absolute;
-    left: 66px;
-    top: 354px;
-    width: 863px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 67px;
-    line-height: 82px;
-    text-transform: uppercase;
-    color: $first-font-color;
-    z-index: 1;
-  }
+//   &__h1 {
+//     position: absolute;
+//     left: 66px;
+//     top: 354px;
+//     width: 863px;
+//     font-family: 'Montserrat', sans-serif;
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 67px;
+//     line-height: 82px;
+//     text-transform: uppercase;
+//     color: $first-font-color;
+//     z-index: 1;
+//   }
 
-  &__h2 {
-    width: 863px;
-    position: absolute;
-    left: 66px;
-    top: 460px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
-    text-transform: uppercase;
-    color: $first-font-color;
-  }
+//   &__h2 {
+//     width: 863px;
+//     position: absolute;
+//     left: 66px;
+//     top: 460px;
+//     font-family: 'Montserrat';
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 36px;
+//     line-height: 44px;
+//     text-transform: uppercase;
+//     color: $first-font-color;
+//   }
 
-  &__back {
-    position: absolute;
-    left: 0px;
-    top: 340px;
-    width: 1100px;
-    height: 228px;
-    background-color: $square-background;
-  }
-}
+//   &__back {
+//     position: absolute;
+//     left: 0px;
+//     top: 340px;
+//     width: 1100px;
+//     height: 228px;
+//     background-color: $square-background;
+//   }
+// }
 
 .smart-home {
   &_1 {
@@ -191,9 +191,11 @@
 
 
   &__h1 {
+
+    padding-top: 242px;
+    z-index: 3;
     position: absolute;
-    left: 66px;
-    top: 354px;
+    width: 1048px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -204,10 +206,12 @@
   }
 
   &__h2 {
+    padding-top: 347px;
+    z-index: 3;
     width: 943px;
     position: absolute;
-    left: 66px;
-    top: 460px;
+    // left: 120px;
+    // top: 554px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
